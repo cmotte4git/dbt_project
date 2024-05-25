@@ -1,0 +1,9 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '/home/cyril/Documents/vscode project/dbt_project/jaffle_shop-main/jaffle_shop.duckdb'
+      extensions:
+        - httpfs
+        - parquet
